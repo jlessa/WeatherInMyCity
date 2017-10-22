@@ -241,22 +241,22 @@
  p {
    margin-top: 0; }
  
- form input, form textarea, form select {
+ div input, div textarea, div select {
    outline: none;
    border: none;
    padding: 10px;
    border-radius: 30px; }
- form select {
+   div select {
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none; }
- form textarea {
+  div textarea {
    resize: vertical; }
  
  /*
   * Reusable Components Style
   */
- .button, form input[type="submit"], form button, form input[type="reset"] {
+ .button, div input[type="submit"], div button, div input[type="reset"] {
    border: none;
    background: #009ad8;
    padding: 10px 20px;
